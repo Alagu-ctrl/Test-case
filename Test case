@@ -1,0 +1,17 @@
+Test case ID   Title   Pre-conditions                     Test Steps                  Expected Result                Actual Result:         Priority  Remarks
+TC01           Login  Username and password is known    Open the application        The homepage should be opened  The homepage is opened  High
+                                                        Enter correct user name 
+                                                        Enter correct password
+                                                        Click enter
+TC02           Login  Username and password is known    Open the application        Error message should be displayed  The homepage is opened  High
+                                                        Enter incorrect user name 
+                                                        Enter correct password
+                                                        Click enter
+TC03           Login  Username and password is known    Open the application        Error message should be displayed  The homepage is opened  High
+                                                        Enter correct user name 
+                                                        Enter incorrect password
+                                                        Click enter
+TC04           Login  Username and password is known    Open the application        The homepage should be opened  The homepage is opened  High
+                                                        Enter correct user name 
+                                                        Enter incorrect password
+                                                        Check Remember me box
